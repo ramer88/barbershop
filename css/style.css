@@ -135,7 +135,7 @@ body {
 }
 
 .login-popup {
-    display: block;
+    display: none;
     position: fixed;
     top: 250px;
     left: 50%;
@@ -189,6 +189,7 @@ body {
 }
 
 .login-popup-closer {
+    display: none;
     position: absolute;
     top: 250px;
     left: 906px;
