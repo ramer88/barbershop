@@ -1,7 +1,8 @@
 $(document).ready(function() {
-    $('.come').click(onCome);
+    $('.login-popup-closer').click(closePopup);
 });
 
-function onCome() {
+function closePopup() {
     $('.login-popup').hide();
+    $('.login-popup-closer').hide();
 }
