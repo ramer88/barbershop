@@ -62,12 +62,9 @@ body {
     text-transform: uppercase;
 }
 
-.top-menu a:hover {
-    padding-bottom: 25px;
-    border-bottom: 5px solid white;
-}
-
-.top-menu a:active {
+.top-menu a:hover,
+.top-menu a:active,
+.top-menu a.active {
     padding-bottom: 25px;
     border-bottom: 5px solid white;
 }
